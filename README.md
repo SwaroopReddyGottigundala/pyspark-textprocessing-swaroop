@@ -81,6 +81,7 @@ df = pd.DataFrame.from_records(HomeComingResults, columns =[xlabel, ylabel])
 plt.figure(figsize=(10,3))
 sns.barplot(xlabel, ylabel, data=df, palette="viridis").set_title(title)
 ```
+![](https://github.com/SwaroopReddyGottigundala/pyspark-textprocessing-swaroop/blob/main/Screenshot%20(95).png?raw=true)
 ### Word Cloud
 We can create the word cloud from the word count by importing nltk, wordcloud libraries.
 ```
