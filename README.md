@@ -131,7 +131,7 @@ clean_data = wordcloud_generator.preprocessing(input_text)
 wordcloud_generator.create_word_cloud(clean_data)
 ```
 ### Insights
-From the above word count charts we can conclude the important words of the stort which are project, work, works, electronic.
+From the above word count charts we can conclude the important words of the story which are project, work, works, electronic.
 
 ## References
 - [Word Cloud](https://www.section.io/engineering-education/word-cloud/)
