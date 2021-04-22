@@ -131,6 +131,7 @@ input_text = input_text.split('.')
 clean_data = wordcloud_generator.preprocessing(input_text)
 wordcloud_generator.create_word_cloud(clean_data)
 ```
+![](https://github.com/SwaroopReddyGottigundala/pyspark-textprocessing-swaroop/blob/main/Screenshot%20(94).png?raw=true)
 ### Insights
 From the above word count charts we can conclude the important words of the story which are project, work, works, electronic.
 
